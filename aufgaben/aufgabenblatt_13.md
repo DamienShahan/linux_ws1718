@@ -5,7 +5,9 @@
 Schreiben Sie ein Skript namens "welcome.sh", das Sie mit Ihrem Namen Begrüßt und Ihnen die aktuelle Uhrzeit in ihrem bevorzugten Format angibt.
 
 `touch welcome.sh`
+
 `#!/bin/bash`
+
 `echo "Hallo $USER, es ist $(date +%T)"`
 
 **Aufgabe 2**
@@ -27,4 +29,5 @@ Erweitern Sie das Skript nun derart, dass es Ihnen zusätzlich eine lexikografis
 Erweitern Sie das Skript nun so, dass die Pfade aus 3. in einer Variable gespeichert werden. Wie schaffen Sie es, dass jeder Pfad in einer eigenen Zeile steht?
 
 `test=$(find $HOME -maxdepth 1 ! -name '.*' | sort -r)`
+
 `echo "$test"`
