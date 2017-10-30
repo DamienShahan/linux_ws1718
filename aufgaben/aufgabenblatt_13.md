@@ -26,4 +26,5 @@ Erweitern Sie das Skript nun derart, dass es Ihnen zusätzlich eine lexikografis
 
 Erweitern Sie das Skript nun so, dass die Pfade aus 3. in einer Variable gespeichert werden. Wie schaffen Sie es, dass jeder Pfad in einer eigenen Zeile steht?
 
-`Hier könnte deine Lösung stehen`
+`test=$(find $HOME -maxdepth 1 ! -name '.*' | sort -r)`
+`echo "$test"`
