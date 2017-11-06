@@ -4,20 +4,26 @@
 
 Erstellen Sie ein Bash-Skript, das den Inhalt des /root-Verzeichnisses ausgibt. Dies können Sie nur als Benutzer „root“ erledigen.
 
-`Hier könnte deine Lösung stehen`
+`#!/bin/bash
+
+
+ls -l /root
+
+
+sudo ./aufb14auf1`
 
 **Aufgabe 2**
 
 Modifizieren Sie das Skript so, dass jeder Benutzer es ausführen kann; geben Sie aber keinem Nutzer mehr Rechte als unbedingt erforderlich.
 
-`Hier könnte deine Lösung stehen`
+`chmod 665 aufb14auf1`
 
 
 **Aufgabe 3**
 
 In welches Verzeichnis des Systems gehört ihr Skript?
 
-`Hier könnte deine Lösung stehen`
+`egal`
 
 
 **Aufgabe 4**
