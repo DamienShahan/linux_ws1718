@@ -23,18 +23,18 @@ Modifizieren Sie das Skript so, dass jeder Benutzer es ausführen kann; geben Si
 
 In welches Verzeichnis des Systems gehört ihr Skript?
 
-`egal`
+`/usr/local/bin`
 
 
 **Aufgabe 4**
 
 Ändern Sie die Gruppenzugehörigkeit des Verzeichnisses „Sandbox“ in Ihrem Homeverzeichnis zu „testgruppe“
 
-`Hier könnte deine Lösung stehen`
+`chown :testgruppe ~/Playground/Sandbox/`
 
 
 **Aufgabe 5**
 
 Versehen Sie das Verzeichnis „Sandbox“ in Ihrem Homeverzeichnis mit dem SGID-Bit und überprüfen sie ob es funktioniert.
 
-`Hier könnte deine Lösung stehen`
+`chmod g+s ~/Sandbox/ ls -l`
