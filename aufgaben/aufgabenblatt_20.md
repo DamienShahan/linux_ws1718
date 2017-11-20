@@ -4,24 +4,24 @@
 
 Welcher ist der Standard-Runlevel ihres Systems? Wie finden Sie dies heraus?
 
-`Hier könnte deine Lösung stehen`
+`5. Im /etc/init/rc-sysinit.conf DEFUALT_RUNLEVEL auslesen.`
 
 **Aufgabe 2**
 
 Wie **könnten** Sie den Standard-Runlevel zu 1 ändern?
 
-`Hier könnte deine Lösung stehen`
+`Im /etc/init/rc-sysinit.conf env DEFAULT_RUNLEVEL = 1 setzen.`
 
 
 **Aufgabe 3**
 
 Starten Sie das System über den telinit-Befehl neu. Was müssen Sie dazu tun?
 
-`Hier könnte deine Lösung stehen`
+`telinit 6`
 
 
 **Aufgabe 4**
 
 Starten Sie das System über den Shutdown-Befehl ohne Verzögerung neu. Was müssen Sie dazu tun?
 
-`Hier könnte deine Lösung stehen`
+`shutdown -r now`
