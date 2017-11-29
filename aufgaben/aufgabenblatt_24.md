@@ -8,38 +8,38 @@ modprobe -r pcnet32
 
 Was haben Sie soeben durchgeführt?
 
-`Hier könnte deine Lösung stehen`
+`Netzwerk Adapter und Treiber dekativiert.`
 
 **Aufgabe 2**
 
 Was zeigt das Kommando **ifconfig** und **route** Ihnen nun bzgl. eht0 an?
 
-`Hier könnte deine Lösung stehen`
+`Keine Informationen mehr dazu.`
 
 
 **Aufgabe 3**
 
 Wie können Sie dies wieder beheben?
 
-`Hier könnte deine Lösung stehen`
+`sudo ifconfig eth0 up modprobe pcnet32`
 
 
 **Aufgabe 4**
 
 Aktivieren Sie die Netzwerkkarte wieder. Wie sieht die Routingtabelle aus?
 
-`Hier könnte deine Lösung stehen`
+`Es sieht so aus wie ganz am Anfang bevor wir es deaktiviert haben.`
 
 
 **Aufgabe 5**
 
 Machen Sie die Netzwerkverbindung wieder gangbar.
 
-`Hier könnte deine Lösung stehen`
+`sudo ifconfig eth0 up modprobe pcnet32`
 
 
 **Aufgabe 6**
 
 Überprüfen Sie die Funktion der Karte, indem Sie Google anpingen. Wie sieht ihre Routingtabelle nun aus? Was schließen Sie allgemein daraus?
 
-`Hier könnte deine Lösung stehen`
+`Routingtabelle sieht unverändert aus bis auf, dass die Anzahl bei Use höher gezählt ist.`

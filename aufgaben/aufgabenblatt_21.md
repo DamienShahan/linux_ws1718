@@ -8,17 +8,17 @@ Erstellen Sie ein Skript, welches die aktuelle Speicherplatzbelegung des Homelau
 - Bei Stop soll getestet werden ob eine Datei vorhanden ist und diese gelöscht werden
 - Bei Restart soll falls vorhanden die Datei gelöscht und neu erstellt werden.
 
-`Hier könnte deine Lösung stehen`
+`~/Playground/Sandbox/discusage.sh`
 
 **Aufgabe 2**
 
 Erstellen Sie ein Startskript, welches bei den Runleveln 2-5 das eben erstellte Skript ausführt, bei allen anderen soll dieses gestoppt werden.
 
-`Hier könnte deine Lösung stehen`
+`/etc/init.d/discusageRunlevel.sh`
 
 
 **Aufgabe 3**
 
 Aktuallisieren Sie die Runlevel mittels **update-rc.d**
 
-`Hier könnte deine Lösung stehen`
+`update-rc.d discusageRunlevel.sh defaults`
